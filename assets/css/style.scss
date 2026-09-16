@@ -1,41 +1,1031 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+/* =========================================================
+   POWERPOINT WITH JOE
+   Custom GitHub Pages Portfolio
+   ========================================================= */
+
+
+/* =========================================================
+   01: COLOR SYSTEM
+   ========================================================= */
+
 :root {
-  /* Main backgrounds */
   --bg: #05060a;
-  --bg-soft: #090b12;
-  --card: #0d1019;
-  --card-hover: #111522;
+  --bg-soft: #080a10;
 
-  /* Main text */
-  --text: #f7f7fb;
-  --text-soft: #c4c5ce;
-  --muted: #858897;
+  --surface: #0b0e16;
+  --surface-soft: #10141f;
+  --surface-hover: #141927;
 
-  /* Flyer colors */
+  --text: #f7f8fc;
+  --text-soft: #c7c9d3;
+  --muted: #858998;
+
   --blue: #0868ff;
-  --blue-bright: #287cff;
-  --violet: #6047ff;
-  --purple: #a42cff;
-  --purple-bright: #bc39ff;
+  --blue-light: #2c7cff;
 
-  /* Borders */
-  --border: rgba(98, 76, 255, 0.22);
-  --border-bright: rgba(157, 48, 255, 0.55);
+  --violet: #5d45ff;
+  --purple: #9b2cff;
+  --purple-light: #b83cff;
 
-  /* Glow */
-  --blue-glow: rgba(8, 104, 255, 0.30);
-  --purple-glow: rgba(164, 44, 255, 0.28);
+  --border: rgba(91, 74, 255, 0.20);
+  --border-soft: rgba(255, 255, 255, 0.07);
+  --border-bright: rgba(151, 52, 255, 0.55);
 
-  /* Main gradient */
-  --gradient: linear-gradient(
-    90deg,
-    #0868ff 0%,
-    #6047ff 52%,
-    #a42cff 100%
-  );
+  --blue-glow: rgba(8, 104, 255, 0.28);
+  --violet-glow: rgba(93, 69, 255, 0.25);
+  --purple-glow: rgba(155, 44, 255, 0.25);
 
-  --gradient-soft: linear-gradient(
-    135deg,
-    rgba(8, 104, 255, 0.12),
-    rgba(164, 44, 255, 0.10)
-  );
+  --gradient:
+    linear-gradient(
+      90deg,
+      #0868ff 0%,
+      #5d45ff 52%,
+      #9b2cff 100%
+    );
+
+  --gradient-soft:
+    linear-gradient(
+      135deg,
+      rgba(8, 104, 255, 0.10),
+      rgba(155, 44, 255, 0.08)
+    );
+
+  --shadow:
+    0 18px 50px rgba(0, 0, 0, 0.42);
+
+  --radius: 12px;
+}
+
+
+/* =========================================================
+   02: GLOBAL RESET
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+
+  color: var(--text-soft);
+
+  background:
+    radial-gradient(
+      circle at 84% 8%,
+      rgba(8, 104, 255, 0.10),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 12% 65%,
+      rgba(155, 44, 255, 0.07),
+      transparent 25%
+    ),
+    var(--bg);
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  font-size: 16px;
+  line-height: 1.75;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* =========================================================
+   03: PAGE WRAPPER
+   ========================================================= */
+
+.wrapper {
+  width: 1100px;
+  max-width: calc(100% - 48px);
+
+  margin: 0 auto;
+
+  background: transparent;
+}
+
+
+/* =========================================================
+   04: SIDEBAR
+   ========================================================= */
+
+header {
+  width: 270px;
+
+  position: fixed;
+
+  top: 70px;
+
+  color: var(--text-soft);
+}
+
+header h1,
+header h2,
+header h3 {
+  color: var(--text);
+
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+header h1 a,
+header h2 a,
+header h3 a {
+  background: var(--gradient);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  text-decoration: none;
+}
+
+header p {
+  color: var(--muted);
+
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+header a {
+  color: var(--blue-light);
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease,
+    text-shadow 0.2s ease;
+}
+
+header a:hover {
+  color: var(--purple-light);
+
+  text-shadow:
+    0 0 12px rgba(155, 44, 255, 0.35);
+}
+
+
+/* =========================================================
+   05: PROFILE IMAGE
+   ========================================================= */
+
+header img {
+  display: block;
+
+  width: 150px;
+  height: 150px;
+
+  margin: 18px 0 24px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  border: 2px solid var(--violet);
+
+  box-shadow:
+    0 0 0 5px rgba(93, 69, 255, 0.08),
+    0 0 20px rgba(8, 104, 255, 0.20),
+    0 0 35px rgba(155, 44, 255, 0.12);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+header img:hover {
+  transform: scale(1.025);
+
+  box-shadow:
+    0 0 0 5px rgba(93, 69, 255, 0.12),
+    0 0 25px rgba(8, 104, 255, 0.28),
+    0 0 42px rgba(155, 44, 255, 0.18);
+}
+
+
+/* =========================================================
+   06: MAIN CONTENT
+   ========================================================= */
+
+section {
+  width: 760px;
+
+  float: right;
+
+  padding-bottom: 80px;
+
+  color: var(--text-soft);
+}
+
+section p {
+  margin: 0 0 22px;
+
+  color: var(--text-soft);
+}
+
+section strong {
+  color: var(--text);
+
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   07: HEADINGS
+   ========================================================= */
+
+section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6 {
+  color: var(--text);
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  letter-spacing: -0.025em;
+}
+
+section h1 {
+  margin-top: 48px;
+  margin-bottom: 24px;
+
+  font-size: 34px;
+  line-height: 1.2;
+
+  font-weight: 800;
+}
+
+section h2 {
+  margin-top: 52px;
+  margin-bottom: 22px;
+
+  padding-bottom: 14px;
+
+  position: relative;
+
+  font-size: 25px;
+  line-height: 1.3;
+
+  font-weight: 750;
+}
+
+section h2::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 58px;
+  height: 3px;
+
+  border-radius: 100px;
+
+  background: var(--gradient);
+
+  box-shadow:
+    0 0 10px var(--blue-glow),
+    0 0 16px var(--purple-glow);
+}
+
+section h3 {
+  margin-top: 34px;
+  margin-bottom: 16px;
+
+  color: var(--blue-light);
+
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   08: MAIN PAGE TITLE
+   ========================================================= */
+
+section > h1:first-child {
+  margin-top: 0;
+
+  font-size: 38px;
+
+  background: var(--gradient);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  filter:
+    drop-shadow(
+      0 0 14px rgba(93, 69, 255, 0.16)
+    );
+}
+
+
+/* =========================================================
+   09: SKILL BAR
+   Business Presentations | Data Storytelling | etc.
+   ========================================================= */
+
+section > p:first-of-type {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  margin: 0 0 34px;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  color: var(--text-soft);
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(8, 104, 255, 0.06),
+      rgba(155, 44, 255, 0.05)
+    );
+
+  border: 1px solid var(--border-soft);
+
+  border-radius: var(--radius);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.025),
+    0 0 30px rgba(8, 104, 255, 0.025);
+}
+
+
+/* =========================================================
+   10: LINKS
+   ========================================================= */
+
+section a {
+  color: var(--blue-light);
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease,
+    text-shadow 0.2s ease;
+}
+
+section a:hover {
+  color: var(--purple-light);
+
+  text-shadow:
+    0 0 10px rgba(155, 44, 255, 0.30);
+}
+
+
+/* =========================================================
+   11: BLOCKQUOTES
+   ========================================================= */
+
+section blockquote {
+  display: block;
+
+  margin: 28px 0 34px;
+
+  padding: 20px 22px;
+
+  color: var(--text-soft);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(8, 104, 255, 0.09),
+      rgba(155, 44, 255, 0.07)
+    );
+
+  border-left: 3px solid var(--blue-light);
+
+  border-top:
+    1px solid rgba(93, 69, 255, 0.20);
+
+  border-right:
+    1px solid rgba(155, 44, 255, 0.18);
+
+  border-bottom:
+    1px solid rgba(155, 44, 255, 0.18);
+
+  border-radius: 0 12px 12px 0;
+
+  box-shadow:
+    0 12px 35px rgba(0, 0, 0, 0.22),
+    0 0 25px rgba(8, 104, 255, 0.045),
+    inset 0 0 25px rgba(155, 44, 255, 0.025);
+
+  font-style: normal;
+}
+
+section blockquote p {
+  display: block !important;
+
+  margin: 0 !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  color: var(--text-soft) !important;
+
+  font-size: 16px;
+  font-style: normal !important;
+  font-weight: 500;
+  line-height: 1.7;
+
+  animation: none !important;
+  transform: none !important;
+}
+
+
+/* =========================================================
+   12: SCREENSHOTS
+   ========================================================= */
+
+section img {
+  display: block;
+
+  width: 100%;
+  max-width: 100%;
+
+  height: auto;
+
+  margin: 26px 0 28px;
+
+  border-radius: 12px;
+
+  border:
+    1px solid rgba(93, 69, 255, 0.20);
+
+  box-shadow:
+    0 16px 45px rgba(0, 0, 0, 0.48),
+    0 0 18px rgba(8, 104, 255, 0.055),
+    0 0 30px rgba(155, 44, 255, 0.035);
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+section img:hover {
+  transform: translateY(-3px);
+
+  border-color:
+    rgba(155, 44, 255, 0.55);
+
+  box-shadow:
+    0 22px 55px rgba(0, 0, 0, 0.58),
+    0 0 22px rgba(8, 104, 255, 0.13),
+    0 0 38px rgba(155, 44, 255, 0.09);
+}
+
+
+/* =========================================================
+   13: LISTS
+   ========================================================= */
+
+section ul,
+section ol {
+  margin-top: 14px;
+  margin-bottom: 26px;
+
+  padding-left: 26px;
+}
+
+section li {
+  margin-bottom: 10px;
+
+  color: var(--text-soft);
+}
+
+section ul li::marker {
+  color: var(--violet);
+}
+
+section ol li::marker {
+  color: var(--purple-light);
+
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   14: HORIZONTAL RULES
+   ========================================================= */
+
+section hr {
+  height: 1px;
+
+  margin: 46px 0;
+
+  border: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(8, 104, 255, 0.36),
+      rgba(155, 44, 255, 0.32),
+      transparent
+    );
+}
+
+
+/* =========================================================
+   15: TABLES
+   ========================================================= */
+
+section table {
+  width: 100%;
+
+  margin: 24px 0 34px;
+
+  overflow: hidden;
+
+  border-collapse: collapse;
+
+  color: var(--text-soft);
+
+  background: var(--surface);
+
+  border:
+    1px solid var(--border);
+
+  border-radius: var(--radius);
+}
+
+section th {
+  padding: 14px 16px;
+
+  color: var(--text);
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(8, 104, 255, 0.10),
+      rgba(155, 44, 255, 0.08)
+    );
+
+  border:
+    1px solid var(--border);
+
+  font-weight: 700;
+}
+
+section td {
+  padding: 14px 16px;
+
+  color: var(--text-soft);
+
+  border:
+    1px solid rgba(93, 69, 255, 0.13);
+}
+
+section tr:hover td {
+  background:
+    rgba(93, 69, 255, 0.035);
+}
+
+
+/* =========================================================
+   16: INLINE CODE
+   ========================================================= */
+
+code {
+  padding: 3px 7px;
+
+  color: #c2b7ff;
+
+  background:
+    rgba(93, 69, 255, 0.10);
+
+  border:
+    1px solid rgba(93, 69, 255, 0.18);
+
+  border-radius: 5px;
+
+  font-size: 0.9em;
+}
+
+
+/* =========================================================
+   17: CODE BLOCKS
+   ========================================================= */
+
+pre {
+  margin: 24px 0 34px;
+
+  padding: 20px;
+
+  overflow-x: auto;
+
+  color: var(--text-soft);
+
+  background: var(--surface);
+
+  border:
+    1px solid var(--border);
+
+  border-radius: var(--radius);
+
+  box-shadow:
+    0 14px 35px rgba(0, 0, 0, 0.30),
+    0 0 25px rgba(8, 104, 255, 0.035);
+}
+
+pre code {
+  padding: 0;
+
+  color: inherit;
+
+  background: transparent;
+
+  border: 0;
+}
+
+
+/* =========================================================
+   18: FOOTER
+   ========================================================= */
+
+footer {
+  width: 270px;
+
+  position: fixed;
+
+  bottom: 45px;
+
+  color: var(--muted);
+
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+footer a {
+  color: var(--blue-light);
+
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--purple-light);
+}
+
+
+/* =========================================================
+   19: TEXT SELECTION
+   ========================================================= */
+
+::selection {
+  color: #ffffff;
+
+  background:
+    rgba(93, 69, 255, 0.78);
+}
+
+
+/* =========================================================
+   20: SCROLLBAR
+   ========================================================= */
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background:
+    linear-gradient(
+      180deg,
+      var(--blue),
+      var(--purple)
+    );
+
+  border: 2px solid var(--bg);
+
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:
+    linear-gradient(
+      180deg,
+      var(--blue-light),
+      var(--purple-light)
+    );
+}
+
+
+/* =========================================================
+   21: FOCUS STATES
+   ========================================================= */
+
+a:focus-visible {
+  outline:
+    2px solid var(--purple-light);
+
+  outline-offset: 4px;
+
+  border-radius: 3px;
+}
+
+
+/* =========================================================
+   22: SUBTLE CONTENT ENTRANCE
+   ========================================================= */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section > h1,
+section > h2,
+section > h3,
+section > p,
+section > ul,
+section > ol,
+section > img {
+  animation:
+    fadeUp 0.45s ease both;
+}
+
+/*
+   Blockquote paragraphs are intentionally excluded.
+   This prevents Markdown blockquote text from becoming
+   invisible because of nested animation rules.
+*/
+
+section blockquote,
+section blockquote p {
+  opacity: 1 !important;
+
+  animation: none !important;
+
+  transform: none !important;
+}
+
+
+/* =========================================================
+   23: DESKTOP
+   ========================================================= */
+
+@media screen and (min-width: 961px) {
+
+  section {
+    padding-top: 70px;
+  }
+
+}
+
+
+/* =========================================================
+   24: TABLET
+   ========================================================= */
+
+@media screen and (max-width: 960px) {
+
+  .wrapper {
+    width: auto;
+
+    max-width: 760px;
+
+    margin: 0 auto;
+
+    padding: 0 26px;
+  }
+
+  header {
+    width: auto;
+
+    position: relative;
+
+    top: auto;
+
+    padding-top: 45px;
+    padding-bottom: 24px;
+
+    text-align: center;
+  }
+
+  header img {
+    margin:
+      20px auto 24px;
+  }
+
+  section {
+    width: auto;
+
+    float: none;
+
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  footer {
+    width: auto;
+
+    position: relative;
+
+    bottom: auto;
+
+    margin-top: 30px;
+    padding-bottom: 35px;
+
+    text-align: center;
+  }
+
+}
+
+
+/* =========================================================
+   25: MOBILE
+   ========================================================= */
+
+@media screen and (max-width: 720px) {
+
+  body {
+    font-size: 15px;
+
+    background:
+      radial-gradient(
+        circle at 82% 5%,
+        rgba(8, 104, 255, 0.08),
+        transparent 22%
+      ),
+      radial-gradient(
+        circle at 10% 60%,
+        rgba(155, 44, 255, 0.045),
+        transparent 25%
+      ),
+      var(--bg);
+  }
+
+  .wrapper {
+    max-width: 100%;
+
+    padding: 0 18px;
+  }
+
+  header {
+    padding-top: 32px;
+  }
+
+  header img {
+    width: 125px;
+    height: 125px;
+  }
+
+  section {
+    padding-top: 10px;
+  }
+
+  section > h1:first-child {
+    font-size: 31px;
+  }
+
+  section h1 {
+    font-size: 29px;
+
+    margin-top: 40px;
+  }
+
+  section h2 {
+    margin-top: 42px;
+
+    font-size: 22px;
+  }
+
+  section h3 {
+    font-size: 18px;
+  }
+
+  section p {
+    line-height: 1.72;
+  }
+
+  section blockquote {
+    margin: 24px 0 30px;
+
+    padding: 17px 18px;
+  }
+
+  section blockquote p {
+    font-size: 15px;
+  }
+
+  section img {
+    margin: 22px 0 25px;
+
+    border-radius: 9px;
+
+    box-shadow:
+      0 12px 32px rgba(0, 0, 0, 0.52),
+      0 0 16px rgba(93, 69, 255, 0.06);
+  }
+
+  section ul,
+  section ol {
+    padding-left: 22px;
+  }
+
+}
+
+
+/* =========================================================
+   26: SMALL MOBILE
+   ========================================================= */
+
+@media screen and (max-width: 480px) {
+
+  .wrapper {
+    padding: 0 15px;
+  }
+
+  section > h1:first-child {
+    font-size: 28px;
+  }
+
+  section h1 {
+    font-size: 26px;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
+
+  section blockquote {
+    padding: 15px 16px;
+  }
+
+}
+
+
+/* =========================================================
+   27: REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+
+    transition-duration: 0.01ms !important;
+  }
+
 }
