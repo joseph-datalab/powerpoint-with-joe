@@ -476,46 +476,67 @@ section blockquote p {
 
 
 /* =========================================================
-   12: SCREENSHOTS
+   PRESENTATION SCREENSHOTS
    ========================================================= */
+
+@keyframes screenshotBreath {
+
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+
+    box-shadow:
+      0 16px 45px rgba(0, 0, 0, 0.48),
+      -5px 0 24px rgba(8, 104, 255, 0.10),
+      5px 0 28px rgba(194, 44, 255, 0.08);
+  }
+
+  50% {
+    transform: translateY(-5px) scale(1.003);
+
+    box-shadow:
+      0 20px 55px rgba(0, 0, 0, 0.52),
+      -7px 0 30px rgba(8, 104, 255, 0.22),
+      7px 0 35px rgba(194, 44, 255, 0.18);
+  }
+}
+
 
 section img {
   display: block;
 
   width: 100%;
   max-width: 100%;
-
   height: auto;
 
-  margin: 26px 0 28px;
+  margin: 28px 0 32px;
 
   border-radius: 12px;
 
   border:
-    1px solid rgba(93, 69, 255, 0.20);
+    1px solid rgba(100, 69, 255, 0.32);
 
-  box-shadow:
-    0 16px 45px rgba(0, 0, 0, 0.48),
-    0 0 18px rgba(8, 104, 255, 0.055),
-    0 0 30px rgba(155, 44, 255, 0.035);
+  cursor: zoom-in;
+
+  animation:
+    screenshotBreath 5s ease-in-out infinite;
 
   transition:
-    transform 0.3s ease,
-    border-color 0.3s ease,
-    box-shadow 0.3s ease;
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
 }
+
 
 section img:hover {
-  transform: translateY(-3px);
-
   border-color:
-    rgba(155, 44, 255, 0.55);
+    rgba(203, 52, 255, 0.75);
 
   box-shadow:
-    0 22px 55px rgba(0, 0, 0, 0.58),
-    0 0 22px rgba(8, 104, 255, 0.13),
-    0 0 38px rgba(155, 44, 255, 0.09);
+    -8px 0 32px rgba(8, 104, 255, 0.25),
+    8px 0 38px rgba(203, 52, 255, 0.22);
 }
+
 
 
 /* =========================================================
@@ -827,187 +848,293 @@ section blockquote p {
 }
 
 
+
 /* =========================================================
-   24: TABLET
+   GRADIENT BOLD TEXT
+   ========================================================= */
+
+section strong,
+header strong {
+  display: inline;
+
+  background:
+    linear-gradient(
+      90deg,
+      #0878ff 0%,
+      #6545ff 48%,
+      #d536ff 100%
+    );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+
+  font-weight: 750;
+}
+
+
+
+/* =========================================================
+   RESPONSIVE TABLET + MOBILE
    ========================================================= */
 
 @media screen and (max-width: 960px) {
 
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+  }
+
+  body {
+    background: var(--bg) !important;
+  }
+
   .wrapper {
-    width: auto;
+    width: 100% !important;
+    max-width: 100% !important;
 
-    max-width: 760px;
-
-    margin: 0 auto;
-
-    padding: 0 26px;
+    margin: 0 !important;
+    padding: 0 20px !important;
   }
 
   header {
-    width: auto;
+    position: relative !important;
 
-    position: relative;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
 
-    top: auto;
+    width: 100% !important;
+    max-width: 100% !important;
 
-    padding-top: 45px;
-    padding-bottom: 24px;
+    margin: 0 !important;
+    padding: 35px 0 40px !important;
 
     text-align: center;
   }
 
   header img {
-    margin:
-      20px auto 24px;
+    width: 140px !important;
+    height: 140px !important;
+
+    margin: 20px auto 28px !important;
+  }
+
+  header p {
+    max-width: 500px;
+
+    margin-left: auto;
+    margin-right: auto;
   }
 
   section {
-    width: auto;
+    float: none !important;
 
-    float: none;
+    width: 100% !important;
+    max-width: 100% !important;
 
-    padding-top: 20px;
-    padding-bottom: 60px;
+    margin: 0 !important;
+    padding: 20px 0 60px !important;
+
+    overflow: visible !important;
   }
 
   footer {
-    width: auto;
+    position: relative !important;
 
-    position: relative;
+    width: 100% !important;
 
-    bottom: auto;
+    bottom: auto !important;
 
-    margin-top: 30px;
-    padding-bottom: 35px;
+    margin: 30px 0 0 !important;
+    padding: 25px 0 40px !important;
 
     text-align: center;
+  }
+
+
+  /* Prevent anything from forcing page width */
+
+  section img,
+  section table,
+  section pre,
+  section blockquote {
+    max-width: 100% !important;
   }
 
 }
 
 
 /* =========================================================
-   25: MOBILE
+   MOBILE
    ========================================================= */
 
 @media screen and (max-width: 720px) {
 
   body {
-    font-size: 15px;
-
-    background:
-      radial-gradient(
-        circle at 82% 5%,
-        rgba(8, 104, 255, 0.08),
-        transparent 22%
-      ),
-      radial-gradient(
-        circle at 10% 60%,
-        rgba(155, 44, 255, 0.045),
-        transparent 25%
-      ),
-      var(--bg);
+    font-size: 15px !important;
   }
 
   .wrapper {
-    max-width: 100%;
-
-    padding: 0 18px;
+    padding: 0 18px !important;
   }
 
+
+  /* PROFILE */
+
   header {
-    padding-top: 32px;
+    padding-top: 28px !important;
   }
 
   header img {
-    width: 125px;
-    height: 125px;
+    width: 125px !important;
+    height: 125px !important;
   }
 
-  section {
-    padding-top: 10px;
-  }
+
+  /* TITLES */
 
   section > h1:first-child {
-    font-size: 31px;
+    width: 100% !important;
+
+    margin: 0 0 25px !important;
+
+    font-size: clamp(28px, 9vw, 38px) !important;
+    line-height: 1.15 !important;
+
+    overflow-wrap: anywhere;
   }
 
   section h1 {
-    font-size: 29px;
-
-    margin-top: 40px;
+    font-size: 27px !important;
+    line-height: 1.2 !important;
   }
 
   section h2 {
-    margin-top: 42px;
+    margin-top: 42px !important;
 
-    font-size: 22px;
+    font-size: 21px !important;
   }
 
   section h3 {
-    font-size: 18px;
+    font-size: 18px !important;
   }
+
+
+  /* NORMAL TEXT */
 
   section p {
-    line-height: 1.72;
+    max-width: 100% !important;
+
+    font-size: 16px;
+    line-height: 1.75;
+
+    overflow-wrap: break-word;
   }
 
-  section blockquote {
-    margin: 24px 0 30px;
 
-    padding: 17px 18px;
+  /* TOP SKILL BAR */
+
+  section > p:first-of-type {
+    display: grid !important;
+
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    width: 100% !important;
+
+    margin: 0 0 35px !important;
+
+    overflow: hidden !important;
+
+    border-radius: 10px;
+  }
+
+
+  /* BLOCKQUOTE */
+
+  section blockquote {
+    width: 100% !important;
+
+    margin: 25px 0 32px !important;
+    padding: 18px !important;
   }
 
   section blockquote p {
-    font-size: 15px;
+    font-size: 15px !important;
+    line-height: 1.7 !important;
   }
+
+
+  /* IMAGES */
 
   section img {
-    margin: 22px 0 25px;
+    width: 100% !important;
+    max-width: 100% !important;
 
-    border-radius: 9px;
+    margin: 22px 0 28px !important;
+
+    border-radius: 9px !important;
+
+    /*
+      Heavy animated shadows are disabled on phones.
+      This makes scrolling much smoother.
+    */
+
+    animation: none !important;
+
+    filter: none !important;
 
     box-shadow:
-      0 12px 32px rgba(0, 0, 0, 0.52),
-      0 0 16px rgba(93, 69, 255, 0.06);
+      0 10px 25px rgba(0, 0, 0, 0.38),
+      0 0 0 1px rgba(93, 69, 255, 0.25) !important;
+
+    transform: none !important;
   }
 
-  section ul,
-  section ol {
-    padding-left: 22px;
+
+  /* DISABLE EXPENSIVE SCROLL EFFECTS */
+
+  section > h1,
+  section > h2,
+  section > h3,
+  section > p,
+  section > ul,
+  section > ol,
+  section > img {
+    animation: none !important;
   }
 
 }
 
 
 /* =========================================================
-   26: SMALL MOBILE
+   SMALL PHONES
    ========================================================= */
 
 @media screen and (max-width: 480px) {
 
   .wrapper {
-    padding: 0 15px;
+    padding: 0 16px !important;
   }
 
   section > h1:first-child {
-    font-size: 28px;
+    font-size: 29px !important;
   }
 
   section h1 {
-    font-size: 26px;
+    font-size: 25px !important;
   }
 
   section h2 {
-    font-size: 20px;
-  }
-
-  section blockquote {
-    padding: 15px 16px;
+    font-size: 20px !important;
   }
 
 }
-
 
 /* =========================================================
    27: REDUCED MOTION
