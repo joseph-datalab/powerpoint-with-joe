@@ -1,7 +1,11 @@
 # PowerPoint with Joe
 
-Business Presentations | Data Storytelling | 
-Strategy | Presentation Design
+<div class="skills-grid">
+  <span>Business Presentations</span>
+  <span>Data Storytelling</span>
+  <span>Strategy</span>
+  <span>Presentation Design</span>
+</div>
 
 Hi, I'm Joseph Christopher.
 
