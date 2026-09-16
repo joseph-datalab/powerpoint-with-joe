@@ -32,7 +32,7 @@ Below is the full presentation and a quick breakdown of what I did on each slide
 
 ## 01: Cover
 
-![Business Performance and Growth Strategy]( img/Screenshot-1.png)
+![Business Performance and Growth Strategy](./img/Screenshot-1.png)
 
 I kept the opening slide simple and professional.
 
