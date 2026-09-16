@@ -356,6 +356,122 @@ section > h1:first-child {
 
 
 /* =========================================================
+   SKILLS
+   ========================================================= */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  width: 100%;
+  margin: 0 0 38px;
+
+  overflow: hidden;
+
+  background: #090c14;
+
+  border: 1px solid rgba(94, 69, 255, 0.15);
+  border-radius: 13px;
+}
+
+.skills-grid span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 58px;
+
+  padding: 12px 15px;
+
+  color: var(--text-soft);
+
+  text-align: center;
+
+  border-right: 1px solid rgba(94, 69, 255, 0.18);
+}
+
+.skills-grid span:last-child {
+  border-right: 0;
+}
+
+@media screen and (max-width: 720px) {
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skills-grid span {
+    min-height: 70px;
+
+    padding: 14px 10px;
+
+    font-size: 15px;
+    line-height: 1.4;
+
+    border-right: 1px solid rgba(94, 69, 255, 0.18);
+    border-bottom: 1px solid rgba(94, 69, 255, 0.18);
+  }
+
+  .skills-grid span:nth-child(2n) {
+    border-right: 0;
+  }
+
+  .skills-grid span:nth-last-child(-n + 2) {
+    border-bottom: 0;
+  }
+}
+
+
+
+/* =========================================================
+   STYLISH FADED DIVIDER
+   ========================================================= */
+
+header + section {
+  border-top: 0 !important;
+}
+
+section::before {
+  content: "";
+
+  display: block;
+
+  width: 100%;
+  height: 1px;
+
+  margin: 0 0 42px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(8, 104, 255, 0.10) 8%,
+      rgba(8, 104, 255, 0.75) 28%,
+      rgba(103, 69, 255, 0.90) 50%,
+      rgba(203, 44, 255, 0.70) 72%,
+      rgba(203, 44, 255, 0.10) 92%,
+      transparent 100%
+    );
+
+  box-shadow:
+    0 0 8px rgba(8, 104, 255, 0.16),
+    0 0 12px rgba(155, 44, 255, 0.10);
+}
+
+@media screen and (max-width: 720px) {
+
+  section::before {
+    width: 92%;
+
+    margin:
+      0 auto 40px;
+
+    opacity: 0.8;
+  }
+}
+
+
+/* =========================================================
    09: SKILL BAR
    Business Presentations | Data Storytelling | etc.
    ========================================================= */
@@ -1109,6 +1225,35 @@ header strong {
     animation: none !important;
   }
 
+}
+
+/* =========================================================
+   MOBILE SKILL GRID
+   ========================================================= */
+
+@media screen and (max-width: 720px) {
+
+  section > p:first-of-type {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    margin: 0 0 38px !important;
+    padding: 0 !important;
+
+    overflow: hidden !important;
+
+    background: #090c14 !important;
+
+    border: 1px solid rgba(94, 69, 255, 0.16) !important;
+    border-radius: 14px !important;
+  }
+
+  section > p:first-of-type br {
+    display: none !important;
+  }
 }
 
 
