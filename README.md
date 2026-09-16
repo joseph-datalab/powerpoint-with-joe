@@ -7,8 +7,6 @@
   <span>Presentation Design</span>
 </div>
 
-
-
 Hi, I'm Joseph Christopher. Welcome to my PowerPoint portfolio.
 
 I put this together to show how I approach a business presentation from start to finish. That includes the structure, content, data, charts, visual design, and final quality check.
@@ -37,7 +35,7 @@ Below is the full presentation and a quick breakdown of what I did on each slide
 
 ## 01: Cover
 
-![Business Performance and Growth Strategy](assets/img/Screenshot-1.png)
+[![Business Performance and Growth Strategy](assets/img/Screenshot-1.png)](assets/img/Screenshot-1.png)
 
 I kept the opening slide simple and professional.
 
@@ -49,7 +47,7 @@ I used a dark background with a small set of accent colors that continue through
 
 ## 02: Executive Agenda
 
-![Executive Agenda](assets/img/Screenshot-2.png)
+[![Executive Agenda](assets/img/Screenshot-2.png)](assets/img/Screenshot-2.png)
 
 I used this slide to give the audience a clear idea of where the presentation is going before getting into the numbers.
 
@@ -68,7 +66,7 @@ I also added a short explanation beside each section so the audience can quickly
 
 ## 03: Executive Summary
 
-![Executive Summary](assets/img/Screenshot-3.png)
+[![Executive Summary](assets/img/Screenshot-3.png)](assets/img/Screenshot-3.png)
 
 This is one of the most important slides in the presentation.
 
@@ -84,7 +82,7 @@ The idea was to make sure someone could look at this slide alone and still under
 
 ## 04: Market Context
 
-![Market Context](assets/img/Screenshot-4.png)
+[![Market Context](assets/img/Screenshot-4.png)](assets/img/Screenshot-4.png)
 
 Here I moved from the company's internal performance to the bigger market opportunity.
 
@@ -100,7 +98,7 @@ I finished the slide with a short business implication so the data leads to an a
 
 ## 05: Financial Performance
 
-![Financial Performance](assets/img/Screenshot-5.png)
+[![Financial Performance](assets/img/Screenshot-5.png)](assets/img/Screenshot-5.png)
 
 This slide shows how revenue changed from FY22 to FY26.
 
@@ -114,7 +112,7 @@ I also highlighted that profitability wasn't keeping up with the top line growth
 
 ## 06: Margin Bridge
 
-![Margin Bridge](assets/img/Screenshot-6.png)
+[![Margin Bridge](assets/img/Screenshot-6.png)](assets/img/Screenshot-6.png)
 
 This slide explains why EBITDA margin moved from 20.2% to 18.4%.
 
@@ -128,7 +126,7 @@ This makes the story clearer. The business isn't struggling to grow revenue. The
 
 ## 07: Customer Portfolio
 
-![Customer Portfolio](assets/img/Screenshot-7.png)
+[![Customer Portfolio](assets/img/Screenshot-7.png)](assets/img/Screenshot-7.png)
 
 Here I compared the company's Enterprise, Mid market, and SMB customer groups.
 
@@ -142,7 +140,7 @@ I then turned that finding into a management recommendation: protect the Mid mar
 
 ## 08: Commercial Funnel
 
-![Commercial Funnel](assets/img/Screenshot-8.png)
+[![Commercial Funnel](assets/img/Screenshot-8.png)](assets/img/Screenshot-8.png)
 
 This slide follows the sales journey from 12,800 marketing leads down to 318 wins.
 
@@ -156,7 +154,7 @@ I then connected that gap to a possible $2.1M annual revenue upside if the compa
 
 ## 09: Retention Diagnosis
 
-![Retention Diagnosis](assets/img/Screenshot-9.png)
+[![Retention Diagnosis](assets/img/Screenshot-9.png)](assets/img/Screenshot-9.png)
 
 After identifying retention as an issue, I used this slide to look at why customers are leaving.
 
@@ -170,7 +168,7 @@ I also added a practical response instead of stopping at the problem: improve th
 
 ## 10: Operational Performance
 
-![Operational Performance](assets/img/Screenshot-10.png)
+[![Operational Performance](assets/img/Screenshot-10.png)](assets/img/Screenshot-10.png)
 
 This slide looks at what is happening inside the company's operation.
 
@@ -184,7 +182,7 @@ That suggests the company doesn't only have a capacity issue. There are also pro
 
 ## 11: Cost Structure
 
-![Cost Structure](assets/img/Screenshot-11.png)
+[![Cost Structure](assets/img/Screenshot-11.png)](assets/img/Screenshot-11.png)
 
 This slide breaks down where the company's costs are going and where management may be able to improve efficiency.
 
@@ -198,7 +196,7 @@ That way, the slide doesn't just explain where the company is spending money. It
 
 ## 12: Strategic Priorities
 
-![Strategic Priorities](assets/img/Screenshot-12.png)
+[![Strategic Priorities](assets/img/Screenshot-12.png)](assets/img/Screenshot-12.png)
 
 At this point in the presentation, the main problems have already been identified.
 
@@ -217,7 +215,7 @@ This is where the presentation moves from explaining the problems to showing wha
 
 ## 13: Initiative Prioritization
 
-![Initiative Prioritization](assets/img/Screenshot-13.png)
+[![Initiative Prioritization](assets/img/Screenshot-13.png)](assets/img/Screenshot-13.png)
 
 Not every good idea needs to happen at the same time.
 
@@ -229,7 +227,7 @@ Retention and delivery improvements offer a strong balance between impact and ef
 
 ## 14: 12 Month Roadmap
 
-![12 Month Roadmap](assets/img/Screenshot-14.png)
+[![12 Month Roadmap](assets/img/Screenshot-14.png)](assets/img/Screenshot-14.png)
 
 A recommendation isn't very useful if nobody knows what happens next.
 
@@ -243,7 +241,7 @@ This gives management a clear view of how the strategy can move from an idea to 
 
 ## 15: Governance & KPI Cadence
 
-![Governance and KPI Cadence](assets/img/Screenshot-15.png)
+[![Governance and KPI Cadence](assets/img/Screenshot-15.png)](assets/img/Screenshot-15.png)
 
 This slide answers another important question:
 
@@ -259,7 +257,7 @@ I also included weekly, monthly, and quarterly review points so performance can 
 
 ## 16: Expected Impact
 
-![Expected Impact](assets/img/Screenshot-16.png)
+[![Expected Impact](assets/img/Screenshot-16.png)](assets/img/Screenshot-16.png)
 
 This slide brings the full business case together.
 
@@ -273,7 +271,7 @@ I wanted the presentation to finish with a clear next step instead of ending wit
 
 ## 17: Methodology & Assumptions
 
-![Methodology and Assumptions](assets/img/Screenshot-17.png)
+[![Methodology and Assumptions](assets/img/Screenshot-17.png)](assets/img/Screenshot-17.png)
 
 I used the final slide to explain how I approached the project and how I reviewed the presentation.
 
