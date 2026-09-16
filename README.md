@@ -7,9 +7,8 @@
   <span>Presentation Design</span>
 </div>
 
-Hi, I'm Joseph Christopher. Welcome to my PowerPoint portfolio.
 
-Hi, I'm Joseph Christopher. Welcome to my PowerPoint portfolio. I put this together to show how I approach a business presentation from start to finish. That includes the structure, content, data, charts, visual design, and final quality check.
+**Hi, I'm Joseph Christopher.** Welcome to my PowerPoint portfolio. I put this together to show how I approach a business presentation from start to finish. That includes the structure, content, data, charts, visual design, and final quality check.
 
 For this case study, I created a 17 slide executive presentation around a fictional B2B company.
 
