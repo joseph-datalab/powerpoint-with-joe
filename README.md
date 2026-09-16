@@ -6,17 +6,15 @@ Hi, I'm Joseph Christopher.
 
 Welcome to my PowerPoint portfolio.
 
-I put this together to show how I approach a business presentation from start to finish — not just the design, but also the structure, data, charts, business story, and final quality check.
+I put this together to show how I approach a business presentation from start to finish. That includes the structure, content, data, charts, visual design, and final quality check.
 
-For this case study, I created a 17-slide executive presentation around a fictional B2B company.
+For this case study, I created a 17 slide executive presentation around a fictional B2B company.
 
 The goal was simple:
 
 > Take a large amount of business information and turn it into a presentation that management can quickly understand and act on.
 
-The company data used here is illustrative and was created for this portfolio.
-
----
+The company data used in this project is illustrative and was created for this portfolio.
 
 # Business Performance & Growth Strategy
 
@@ -24,382 +22,292 @@ The company data used here is illustrative and was created for this portfolio.
 
 This project looks at a growing business that is doing well on revenue but is facing pressure around profit margin, customer retention, acquisition costs, and operational efficiency.
 
-I built the presentation to answer three main questions:
+I built the presentation around three main questions:
 
 1. What is happening in the business?
 2. What's driving the performance?
 3. What should management do next?
 
-Here's the full presentation and a breakdown of how I approached each slide.
+Below is the full presentation and a quick breakdown of what I did on each slide.
 
----
+## 01: Cover
 
-## 01 — Cover
-
-![Business Performance & Growth Strategy](./screenshots/01-cover.png)
+![Business Performance and Growth Strategy](./screenshots/screenshot-1.png)
 
 I kept the opening slide simple and professional.
 
 The title makes the subject clear right away, while the subtitle explains that this is an executive management case study.
 
-I used a dark background with a small set of accent colors that continue throughout the rest of the presentation. This helped establish the visual style without making the cover too busy.
+I used a dark background with a small set of accent colors that continue throughout the presentation. This helped me set the visual style without making the cover too busy.
 
-**What I focused on:** visual hierarchy, typography, spacing, branding, and a clean executive look.
+**What I worked on:** Visual hierarchy, typography, spacing, color system, and overall presentation style.
 
----
+## 02: Executive Agenda
 
-## 02 — Executive Agenda
+![Executive Agenda](./screenshots/screenshot-2.png)
 
-![Executive Agenda](./screenshots/02-executive-agenda.png)
+I used this slide to give the audience a clear idea of where the presentation is going before getting into the numbers.
 
-Before getting into the numbers, I wanted the audience to understand where the presentation was going.
+I organized the story into six main areas:
 
-I organized the story into six parts:
+1. Executive summary
+2. Business and market context
+3. Financial performance
+4. Customer and channel analysis
+5. Operational diagnosis
+6. Strategic priorities and roadmap
 
-- Executive summary
-- Business and market context
-- Financial performance
-- Customer and channel analysis
-- Operational diagnosis
-- Strategic priorities and roadmap
+I also added a short explanation beside each section so the audience can quickly understand what each part covers.
 
-I also added a short explanation beside each section so the audience knows what they should expect from it.
+**What I worked on:** Presentation structure, storyline, information hierarchy, spacing, and readability.
 
-**What I focused on:** presentation structure, storyline, information hierarchy, and readability.
+## 03: Executive Summary
 
----
+![Executive Summary](./screenshots/screenshot-3.png)
 
-## 03 — Executive Summary
+This is one of the most important slides in the presentation.
 
-![Executive Summary](./screenshots/03-executive-summary.png)
+Instead of making management go through the whole deck before understanding the situation, I brought the main numbers to the front.
 
-This is one of the most important slides in the deck.
+The slide highlights $48.6M in revenue, an 18.4% EBITDA margin, 84% customer retention, and an NPS of 52.
 
-Instead of making management go through the full presentation before understanding the situation, I brought the main numbers to the front.
+Below the KPIs, I summarized the main business takeaways in simple language.
 
-The slide highlights:
+The idea was to make sure someone could look at this slide alone and still understand the current state of the business.
 
-- $48.6M revenue
-- 18.4% EBITDA margin
-- 84% customer retention
-- NPS of 52
+**What I worked on:** KPI presentation, executive summary writing, visual hierarchy, business communication, and turning analysis into clear takeaways.
 
-Below the KPIs, I summarized the main business takeaways in plain language.
+## 04: Market Context
 
-The idea was to let someone understand the current business situation from this slide alone.
+![Market Context](./screenshots/screenshot-4.png)
 
-**What I focused on:** KPI design, executive summary writing, visual hierarchy, and turning analysis into clear takeaways.
+Here I moved from the company's internal performance to the bigger market opportunity.
 
----
+I compared three areas: the core market, adjacent services, and emerging AI enabled services.
 
-## 04 — Market Context
+Instead of putting everything into a large table, I used horizontal bars to make the market sizes easy to compare. I also included the growth rate for each area.
 
-![Market Context](./screenshots/04-market-context.png)
+The main point is that the biggest market isn't automatically the biggest future opportunity. The growth rates help show where the company may find stronger opportunities going forward.
 
-Here I moved from internal performance to the market opportunity.
+I finished the slide with a short business implication so the data leads to an actual recommendation.
 
-Rather than using a heavy table, I used horizontal bars to compare the size and growth of three areas:
+**What I worked on:** Market comparison, data visualization, chart layout, data storytelling, and business interpretation.
 
-- Core market
-- Adjacent services
-- Emerging AI-enabled services
+## 05: Financial Performance
 
-The key point is not only the market size. The growth rates show where the bigger future opportunities may be.
+![Financial Performance](./screenshots/screenshot-5.png)
 
-I finished the slide with a short business implication so the chart leads to an actual decision.
+This slide shows how revenue changed from FY22 to FY26.
 
-**What I focused on:** market data, comparison, chart design, data storytelling, and business interpretation.
+Revenue grew from $29.5M to $48.6M, with a 13.3% CAGR and 12.5% growth in FY26.
 
----
+But I didn't want the message to stop at "revenue is growing."
 
-## 05 — Financial Performance
+I also highlighted that profitability wasn't keeping up with the top line growth. That gives the audience a reason to look deeper into what is affecting the margin.
 
-![Financial Performance](./screenshots/05-financial-performance.png)
+**What I worked on:** Financial storytelling, trend analysis, chart design, KPI callouts, and identifying the main issue behind the numbers.
 
-This slide shows the company's revenue growth from FY22 to FY26.
+## 06: Margin Bridge
 
-Revenue increased from $29.5M to $48.6M, with a 13.3% CAGR and 12.5% FY26 growth.
-
-But I didn't want the slide to stop at "revenue is growing."
-
-I added the main issue beside the chart: profitability isn't keeping up with the top-line growth.
-
-That sets up the next part of the analysis.
-
-**What I focused on:** financial storytelling, trend analysis, chart design, KPI callouts, and identifying the issue behind the numbers.
-
----
-
-## 06 — Margin Bridge
-
-![Margin Bridge](./screenshots/06-margin-bridge.png)
+![Margin Bridge](./screenshots/screenshot-6.png)
 
 This slide explains why EBITDA margin moved from 20.2% to 18.4%.
 
-I broke the movement into positive and negative drivers.
+I separated the positive and negative drivers so it's easy to see what helped and what hurt performance.
 
-Pricing and product mix helped performance, while delivery costs, customer acquisition costs, and G&A pulled the margin down.
+Pricing and mix helped the business, while delivery costs, customer acquisition costs, and G&A pulled the margin down.
 
-This makes it easier to see that the problem isn't revenue alone — it's how much the company is spending to deliver and acquire that revenue.
+This makes the story clearer. The business isn't struggling to grow revenue. The bigger issue is how much it's spending to deliver and acquire that revenue.
 
-**What I focused on:** variance analysis, financial communication, cause-and-effect storytelling, and simplifying multiple financial drivers.
+**What I worked on:** Variance analysis, financial communication, cause and effect storytelling, and simplifying multiple financial drivers.
 
----
+## 07: Customer Portfolio
 
-## 07 — Customer Portfolio
+![Customer Portfolio](./screenshots/screenshot-7.png)
 
-![Customer Portfolio](./screenshots/07-customer-portfolio.png)
+Here I compared the company's Enterprise, Mid market, and SMB customer groups.
 
-Here I compared the company's three customer groups:
+I looked at revenue mix, year over year growth, retention, and strategic value.
 
-- Enterprise
-- Mid-market
-- SMB
+The numbers show that Enterprise customers are the strongest growth area, while Mid market retention needs more attention.
 
-I looked at revenue mix, growth, retention, and strategic value.
+I then turned that finding into a management recommendation: protect the Mid market customer base while continuing to grow Enterprise accounts.
 
-The numbers show that enterprise customers are performing strongly, while mid-market retention is the biggest concern.
+**What I worked on:** Customer segmentation, table design, comparative analysis, business interpretation, and management recommendations.
 
-I then turned that into a management action: protect the mid-market base while continuing to expand enterprise accounts.
+## 08: Commercial Funnel
 
-**What I focused on:** customer segmentation, table design, comparative analysis, and turning data into a management recommendation.
-
----
-
-## 08 — Commercial Funnel
-
-![Commercial Funnel](./screenshots/08-commercial-funnel.png)
+![Commercial Funnel](./screenshots/screenshot-8.png)
 
 This slide follows the sales journey from 12,800 marketing leads down to 318 wins.
 
-The main goal wasn't just to show the funnel. I wanted to find where the biggest opportunity was.
+I didn't just want to show the funnel. I wanted to identify where the biggest opportunity was.
 
-The analysis showed a major drop between opportunities and proposals.
+The analysis shows a major drop between opportunities and proposals.
 
-I then connected that gap to a possible business upside of $2.1M in annual revenue if conversion improves.
+I then connected that gap to a possible $2.1M annual revenue upside if the company can improve that conversion point.
 
-**What I focused on:** funnel analysis, conversion rates, opportunity sizing, and linking operational data to financial impact.
+**What I worked on:** Funnel analysis, conversion performance, opportunity sizing, visual storytelling, and connecting operational data to financial impact.
 
----
+## 09: Retention Diagnosis
 
-## 09 — Retention Diagnosis
+![Retention Diagnosis](./screenshots/screenshot-9.png)
 
-![Retention Diagnosis](./screenshots/09-retention-diagnosis.png)
+After identifying retention as an issue, I used this slide to look at why customers are leaving.
 
-After identifying retention as a problem, I used this slide to look at why customers leave.
+Slow onboarding is the biggest reason at 31%, followed by service inconsistency at 26%.
 
-The biggest reasons are:
+I used horizontal bars so the audience can quickly compare the different causes.
 
-- Slow onboarding
-- Service inconsistency
-- Price/value
-- Missing features
+I also added a practical response instead of stopping at the problem: improve the first 30 days of onboarding, set clearer service standards, and identify at risk customers earlier.
 
-Instead of stopping at the problem, I added a practical response: improve the first 30 days of onboarding, introduce service standards, and identify at-risk customers earlier.
+**What I worked on:** Root cause analysis, customer experience data, chart design, and turning findings into practical actions.
 
-**What I focused on:** root-cause analysis, horizontal data visualization, customer experience, and action-oriented recommendations.
+## 10: Operational Performance
 
----
+![Operational Performance](./screenshots/screenshot-10.png)
 
-## 10 — Operational Performance
+This slide looks at what is happening inside the company's operation.
 
-![Operational Performance](./screenshots/10-operational-performance.png)
+I compared actual performance with targets across utilization, first pass quality, rework, and on time delivery.
 
-This slide looks at what is happening inside the operation.
+The numbers show an important issue: utilization is already high, but quality and rework are still below target.
 
-I compared actual performance with targets across:
+That suggests the company doesn't only have a capacity issue. There are also problems with the workflow and quality process.
 
-- Utilization
-- First-pass quality
-- Rework
-- On-time delivery
+**What I worked on:** Operational KPIs, target comparison, quality analysis, root cause thinking, and executive communication.
 
-The biggest issue is that utilization is already high while quality and rework are still below target.
+## 11: Cost Structure
 
-That suggests the team isn't simply dealing with a capacity problem. The workflow and quality process also need attention.
+![Cost Structure](./screenshots/screenshot-11.png)
 
-**What I focused on:** operational KPIs, target comparison, quality analysis, and root-cause thinking.
+This slide breaks down where the company's costs are going and where management may be able to improve efficiency.
 
----
+I paired the cost breakdown with three specific opportunities: workflow automation, vendor optimization, and better customer acquisition cost control.
 
-## 11 — Cost Structure
+Each opportunity also includes an estimated financial impact.
 
-![Cost Structure](./screenshots/11-cost-structure.png)
+That way, the slide doesn't just explain where the company is spending money. It also shows where management can take action.
 
-This slide breaks down where the company's money is going.
+**What I worked on:** Cost analysis, financial visualization, opportunity sizing, and connecting cost drivers to possible savings.
 
-I used the cost mix together with specific savings opportunities to show where management could realistically improve efficiency.
+## 12: Strategic Priorities
 
-The opportunities include:
+![Strategic Priorities](./screenshots/screenshot-12.png)
 
-- Workflow automation
-- Vendor optimization
-- Better customer acquisition cost control
+At this point in the presentation, the main problems have already been identified.
 
-Each opportunity also has an estimated financial impact.
-
-**What I focused on:** cost analysis, financial visualization, prioritization, and connecting cost drivers to practical savings opportunities.
-
----
-
-## 12 — Strategic Priorities
-
-![Strategic Priorities](./screenshots/12-strategic-priorities.png)
-
-By this point, the presentation has identified several problems.
-
-This slide turns all that analysis into four clear priorities:
+I used this slide to turn all that analysis into four clear priorities:
 
 1. Enterprise expansion
-2. Mid-market retention
+2. Mid market retention
 3. Delivery excellence
 4. Acquisition efficiency
 
-I also included the estimated EBITDA impact beside each one.
+I also included the estimated EBITDA impact of each priority.
 
-This is where the deck moves from diagnosis to action.
+This is where the presentation moves from explaining the problems to showing what management should actually do about them.
 
-**What I focused on:** strategy, recommendation writing, prioritization, and communicating financial impact.
+**What I worked on:** Strategy, recommendation writing, prioritization, layout, and communicating financial impact.
 
----
+## 13: Initiative Prioritization
 
-## 13 — Initiative Prioritization
+![Initiative Prioritization](./screenshots/screenshot-13.png)
 
-![Initiative Prioritization](./screenshots/13-initiative-prioritization.png)
+Not every good idea needs to happen at the same time.
 
-Not every good idea should be done at the same time.
+I used an impact versus effort matrix to compare the initiatives and show which ones should move first.
 
-I used an impact-versus-effort matrix to show which initiatives should move first.
+Retention and delivery improvements offer a strong balance between impact and effort. Larger growth initiatives can follow as the company's operational foundation becomes stronger.
 
-Retention and delivery improvements offer a strong balance between impact and effort, while some larger growth initiatives can follow as the company's operational foundation improves.
+**What I worked on:** Prioritization, decision making, impact versus effort analysis, and strategy communication.
 
-**What I focused on:** prioritization, decision-making, impact-versus-effort analysis, and strategy communication.
+## 14: 12 Month Roadmap
 
----
-
-## 14 — 12-Month Roadmap
-
-![12-Month Roadmap](./screenshots/14-roadmap.png)
+![12 Month Roadmap](./screenshots/screenshot-14.png)
 
 A recommendation isn't very useful if nobody knows what happens next.
 
-I turned the strategy into a 12-month roadmap covering four workstreams:
+I turned the strategy into a 12 month roadmap covering four workstreams: Retention, Delivery, Growth, and Acquisition.
 
-- Retention
-- Delivery
-- Growth
-- Acquisition
+The roadmap shows what should happen across months 1 to 3, 4 to 6, 7 to 9, and 10 to 12.
 
-The roadmap shows what should happen in months 1–3, 4–6, 7–9, and 10–12.
+This gives management a clear view of how the strategy can move from an idea to actual execution.
 
-This gives management a clear view of how the strategy could move from idea to execution.
+**What I worked on:** Implementation planning, sequencing, roadmap design, information organization, and turning strategy into action.
 
-**What I focused on:** implementation planning, sequencing, roadmap design, and turning strategy into action.
+## 15: Governance & KPI Cadence
 
----
-
-## 15 — Governance & KPI Cadence
-
-![Governance and KPI Cadence](./screenshots/15-governance-kpis.png)
+![Governance and KPI Cadence](./screenshots/screenshot-15.png)
 
 This slide answers another important question:
 
 > How do we know the plan is actually working?
 
-I assigned a main KPI, target, and owner to each major area.
+I assigned a main KPI, a 12 month target, and an owner to each major area.
 
-For example:
+The targets include revenue growth of at least 12%, gross retention of at least 88%, rework below 7%, first pass quality of at least 96%, and an EBITDA margin of at least 21%.
 
-- Revenue growth of at least 12%
-- Gross retention of at least 88%
-- Rework below 7%
-- First-pass quality of at least 96%
-- EBITDA margin of at least 21%
+I also included weekly, monthly, and quarterly review points so performance can be tracked over time.
 
-I also included weekly, monthly, and quarterly review points.
+**What I worked on:** KPI design, accountability, governance, target setting, and management reporting.
 
-**What I focused on:** KPI design, accountability, governance, target setting, and management reporting.
+## 16: Expected Impact
 
----
+![Expected Impact](./screenshots/screenshot-16.png)
 
-## 16 — Expected Impact
+This slide brings the full business case together.
 
-![Expected Impact](./screenshots/16-expected-impact.png)
+The plan targets $5.2M in annualized EBITDA upside, an EBITDA margin above 21%, and customer retention above 88%.
 
-This slide brings the business case together.
+I also included four immediate actions for leadership.
 
-The strategy targets:
+I wanted the presentation to finish with a clear next step instead of ending with another chart or a general summary.
 
-- $5.2M annualized EBITDA upside
-- 21%+ EBITDA margin
-- 88%+ customer retention
+**What I worked on:** Executive communication, financial impact, summary design, visual hierarchy, and clear calls to action.
 
-I also included four immediate actions for leadership so the presentation ends with a clear next step instead of just another chart.
+## 17: Methodology & Assumptions
 
-**What I focused on:** executive communication, financial impact, summary design, and clear calls to action.
+![Methodology and Assumptions](./screenshots/screenshot-17.png)
 
----
-
-## 17 — Methodology & Quality Check
-
-![Methodology and Assumptions](./screenshots/17-methodology.png)
-
-I included this final slide to explain how I approached the project and how the presentation was reviewed.
+I used the final slide to explain how I approached the project and how I reviewed the presentation.
 
 The analysis followed a simple flow:
 
-**Understand the question → Diagnose performance → Find the causes → Prioritize actions → Estimate impact → Build the roadmap**
+**Understand the question → Diagnose performance → Find the causes → Prioritize actions → Estimate the impact → Build the roadmap**
 
-I also checked the presentation for:
+I also reviewed the presentation for typography, spacing, alignment, visual hierarchy, slide titles, data labels, units, wording, and layout consistency.
 
-- Typography
-- Spacing
-- Alignment
-- Visual hierarchy
-- Slide titles
-- Data labels
-- Units
-- Wording
-- Layout consistency
+All financial and operating figures used in this case study are illustrative.
 
-All financial and operating figures in this case study are illustrative.
-
-**What I focused on:** presentation QA, consistency, methodology, transparency, and final review.
-
----
+**What I worked on:** Presentation QA, consistency, methodology, transparency, and final review.
 
 # What This Project Shows
 
-This project isn't only about slide design.
+This project isn't only about making slides look good.
 
 It shows how I work across the full presentation process:
 
-- Organizing a business story
-- Working with financial and operational data
-- Finding the important points
-- Turning numbers into charts
-- Writing clear executive takeaways
-- Building visual hierarchy
-- Keeping slides consistent
-- Turning analysis into recommendations
-- Building an implementation roadmap
-- Reviewing the final deck for quality
+* Organizing a business story
+* Working with financial and operational data
+* Finding the important points
+* Turning numbers into clear visuals
+* Writing executive takeaways
+* Building visual hierarchy
+* Keeping the whole deck consistent
+* Turning analysis into recommendations
+* Building an implementation roadmap
+* Reviewing the final presentation for quality
 
----
+# Tools I Work With
 
-# Tools
-
-For presentation and visual work, I use:
-
-- Microsoft PowerPoint
-- Microsoft Excel
-- Google Slides
-- Google Sheets
-- Figma
-- Adobe Photoshop
-- AI and LLM tools
-
----
+* Microsoft PowerPoint
+* Microsoft Excel
+* Google Slides
+* Google Sheets
+* Figma
+* Adobe Photoshop
+* AI and LLM tools
 
 # About Me
 
@@ -407,15 +315,13 @@ I'm Joseph Christopher.
 
 My background covers presentation and visual design, web development, AI evaluation, data annotation, content review, and quality assurance.
 
-I like working with information that needs to be cleaned up, organized, checked, and presented in a way that's easy for someone else to understand.
+I enjoy working with information that needs to be organized, cleaned up, checked, and presented in a way that's easy for someone else to understand.
 
 That's the same approach I bring to PowerPoint.
 
 LinkedIn: [YOUR LINKEDIN URL]
 
 Email: [YOUR EMAIL]
-
----
 
 # PowerPoint with Joe
 
